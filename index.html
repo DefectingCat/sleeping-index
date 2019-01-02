@@ -1,125 +1,130 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>闭门思过</title>
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  
-      <link rel="stylesheet" href="css/style.css">
-      <style type="text/css">
-      </style>
-
-  
+<meta charset="UTF-8">
+<title>闭门思过</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="css/style.css">
+<style type="text/css">
+</style>
 </head>
-
 <body>
 <div>
-      <div id="typing" class="de">Defectink</div>
-      <input class="button" id="Button1" type="button" value="看看邻居？" onclick="ShowDiv('MyDiv','fade')" />
-<!--弹出层时背景层DIV-->
-<div id="fade" class="black_overlay">
+	<div id="typing" class="de">
+		Defectink
+	</div>
+	<input class="button" id="Button1" type="button" value="看看邻居？" onclick="ShowDiv('MyDiv','fade')"/>
+	<!--弹出层时背景层DIV-->
+	<div id="fade" class="black_overlay">
+	</div>
+	<div id="MyDiv" class="white_content">
+		<div style="text-align: right; cursor: default; height: 40px;">
+			<span style="font-size: 16px;" onclick="CloseDiv('MyDiv','fade')">关闭</span>
+		</div>
+		<ul style="font-size: 40px; font-weight: 500px;">
+			<li>
+			<a href="http://www.devil.moe/" target="_blank">devil</a>
+			</li>
+			<li>
+			<a href="http://www.smalli.org/" target="_blank">gsdad_white</a>
+			</li>
+			<li>
+			<a href="https://www.imwxz.com/" target="_blank">Matrix</a>
+			</li>
+			<li>
+			<a href="http://ouo.lol/" target="_blank">OuO Blog's</a>
+			</li>
+			<li>
+			<a href="https://uu126.cn/" target="_blank">uu126'Blog</a>
+			</li>
+			<li>
+			<a href="https://www.cunzher.cn/" target="_blank">光芒万丈</a>
+			</li>
+			<li>
+			<a href="https://muhegu.com/" target="_blank">木禾谷</a>
+			</li>
+			<li>
+			<a href="https://qiudy.cc/" target="_blank">秋刀鱼's blog</a>
+			</li>
+			<li>
+			<a href="http://im.dog/" target="_blank">芭比人形</a>
+			</li>
+			<li>
+			<a href="http://hyejeong.cn/" target="_blank">针针小站</a>
+			</li>
+			<li>
+			<a href="https://www.aihoom.com/" target="_blank">空白网络</a>
+			</li>
+			<li>
+			<a href="http://9yo.cc/" target="_blank">碧池喵</a>
+			</li>
+			<li>
+			<a href="http://ypecho.linyezhandidi.com/" target="_blank">林叶展弟弟</a>
+			</li>
+		</ul>
+	</div>
+	<div class="mar">
+		<!--运行时间-->
+           
+		<span id="sitetime" class="sitetime"></span>
+	</div>
 </div>
-  <div id="MyDiv" class="white_content">
-    <div style="text-align: right; cursor: default; height: 40px;">
-      <span style="font-size: 16px;" onclick="CloseDiv('MyDiv','fade')">关闭</span>
-    </div>
-    <ul style="font-size: 40px; font-weight: 500px;">
-      <li>
-        <a href="http://www.devil.moe/" target="_blank">devil</a>
-      </li>
-      <li>
-        <a href="http://www.smalli.org/" target="_blank">gsdad_white</a>
-      </li>
-      <li>
-        <a href="https://www.imwxz.com/" target="_blank">Matrix</a>
-      </li>
-      <li>
-        <a href="http://ouo.lol/" target="_blank">OuO Blog's</a>
-      </li>
-      <li>
-        <a href="https://uu126.cn/" target="_blank">uu126'Blog</a>
-      </li>
-      <li>
-        <a href="https://www.cunzher.cn/" target="_blank">光芒万丈</a>
-      </li>
-      <li>
-        <a href="https://muhegu.com/" target="_blank">木禾谷</a>
-      </li>
-      <li>
-        <a href="https://qiudy.cc/" target="_blank">秋刀鱼's blog</a>
-      </li>
-      <li>
-        <a href="http://im.dog/" target="_blank">芭比人形</a>
-      </li>
-      <li>
-        <a href="http://hyejeong.cn/" target="_blank">针针小站</a>
-      </li>
-      <li>
-        <a href="https://www.aihoom.com/" target="_blank">空白网络</a>
-      </li>
-      <li>
-        <a href="http://9yo.cc/" target="_blank">碧池喵</a>
-      </li>
-      <li>
-        <a href="http://ypecho.linyezhandidi.com/" target="_blank">林叶展弟弟</a>
-      </li>
-    </ul>
-  </div>
-            <div class="mar">        <!--运行时间-->
-           <span id="sitetime" class="sitetime"></span>
-           </div>
-
-                  </div>
-                  <div>
-                    <span class="nolong">不会太久的</span>
-                  </div>
+<div>
+	<span class="nolong">不会太久的</span>
 </div>
-  <div class="main">
-    <span class="stand"></span>
-    <div class="cat">
-     <div class="body"></div>
-     <div class="head">
-       <div class="ear"></div>
-     <div class="ear"></div>
-     </div>
-     <div class="face">
-      <div class="nose"></div>
-     <div class="whisker-container">
-       <div class="whisker"></div>
-       <div class="whisker"></div>
-     </div>
-     <div class="whisker-container">
-       <div class="whisker"></div>
-       <div class="whisker"></div>
-     </div>
-     </div>
-     <div class="tail-container">
-      <div class="tail">
-        <div class="tail">
-          <div class="tail">
-            <div class="tail">
-              <div class="tail">
-                <div class="tail">
-                  <div class="tail"><div>🌸</div></div>
-                  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-     </div>
-   </div>
-  <canvas class="fireworks" style="position: fixed; left: 0px; top: 0px; z-index: 99999999; pointer-events: none; width: 1325px; height: 938px;" width="2650" height="1876">
-</canvas>
+</div>
+<div class="main">
+<span class="stand"></span>
+<div class="cat">
+	<div class="body">
+	</div>
+	<div class="head">
+		<div class="ear">
+		</div>
+		<div class="ear">
+		</div>
+	</div>
+	<div class="face">
+		<div class="nose">
+		</div>
+		<div class="whisker-container">
+			<div class="whisker">
+			</div>
+			<div class="whisker">
+			</div>
+		</div>
+		<div class="whisker-container">
+			<div class="whisker">
+			</div>
+			<div class="whisker">
+			</div>
+		</div>
+	</div>
+	<div class="tail-container">
+		<div class="tail">
+			<div class="tail">
+				<div class="tail">
+					<div class="tail">
+						<div class="tail">
+							<div class="tail">
+								<div class="tail">
+									<div>
+										🌸
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<canvas class="fireworks" style="position: fixed; left: 0px; top: 0px; z-index: 99999999; pointer-events: none; width: 1325px; height: 938px;" width="2650" height="1876"></canvas>
 <script type="text/javascript" src="./js/anime.min.js"></script>
 <script type="text/javascript" src="./js/fireworks.js"></script>
-
-    <script  src="js/index.js"></script>
-                <script type="text/javascript">
+<script src="js/index.js"></script>
+<script type="text/javascript">
                     function siteTime(){
                   window.setTimeout("siteTime()", 1000);
                   var seconds = 1000
@@ -134,7 +139,6 @@
                   var todayHour = today.getHours()
                   var todayMinute = today.getMinutes()
                   var todaySecond = today.getSeconds()
-
                   /* Date.UTC() -- 返回date对象距世界标准时间(UTC)1970年1月1日午夜之间的毫秒数(时间戳) 
                   year - 作为date对象的年份，为4位年份值
                   month - 0-11之间的整数，做为date对象的月份
@@ -155,7 +159,7 @@
                   }
                   siteTime()
                 </script>
-                <script type="text/javascript">
+<script type="text/javascript">
 //弹出隐藏层
 function ShowDiv(show_div,bg_div){
   document.getElementById(show_div).style.display='block';
@@ -172,7 +176,7 @@ function CloseDiv(show_div,bg_div)
   document.getElementById(bg_div).style.display='none';
 };
 </script>
-        <script>
+<script>
 var typing = function(r) {
     function t() {
       return b[Math.floor(Math.random() * b.length)]
@@ -214,5 +218,4 @@ var typing = function(r) {
 typing(document.getElementById('typing')); 
         </script>
 </body>
-
 </html>
